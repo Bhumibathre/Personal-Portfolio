@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bhumi Bathre | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="B.Tech CSE student portfolio and projects."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">Bhumi Bathre</div>
+
+      <!-- Desktop nav -->
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <!-- Mobile menu button -->
+      <button class="menu-btn" id="menu-btn">☰</button>
+    </header>
+
+    <!-- Mobile nav dropdown -->
+    <nav class="nav-mobile" id="nav-mobile">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="tag">Final-year B.Tech CSE student (2026)</p>
+        <h1>Hi, I’m Bhumi Bathre</h1>
+        <p class="subtitle">
+          Aspiring Python & Frontend Developer turning ideas into functional web
+          applications.
+        </p>
+        <div class="hero-actions">
+          <a
+            href="https://drive.google.com/file/d/1cGPq4IG8f7vxEzSnu7MvNkGLVfMo28nM/view?usp=sharing"
+            class="btn"
+            download
+            >Download Resume</a
+          >
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="Images/hero.png" alt="Bhumi Bathre" />
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <h2 class="section-title">About</h2>
+      <div class="about-grid">
+        <p>
+          I’m an 8th-semester B.Tech CSE student with a strong interest in
+          Python and Frontend development. I build practical projects using
+          HTML, CSS, JavaScript, and Python, with experience in databases, OOP
+          concepts, and version control.
+          <br />
+          <br />
+          I work well in teams, take leadership when required, and continuously
+          improve my problem-solving skills through real-time projects.
+        </p>
+        <div>
+          <h3>Skills</h3>
+          <ul class="skills">
+            <li><strong>Frontend :</strong> HTML, CSS, JavaScript</li>
+            <li>
+              <strong>Programming & Core Concepts :</strong> Python, OOPs, Basic
+              C,C++
+            </li>
+            <li><strong>Database : </strong>MySQL, SQL</li>
+            <li>
+              <strong>Tools & Platforms : </strong>Git, GitHub, VS Code, Jupyter
+              Notebook, MS Word (Basic)
+            </li>
+            <li>
+              <strong>Soft Skills : </strong>Teamwork, Leadership, Communication
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects (3 cards) -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project">
+          <h3>Object Detection</h3>
+          <p>
+            A real-time object detection system that identifies and classifies
+            objects from live video streams with high accuracy.
+          </p>
+          <p class="stack">
+            Tech: Python, OpenCV, TensorFlow (YOLOv5), NumPy, Pandas,
+            Matplotlib, Jupyter Notebook, LabelImg
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/Bhumibathre/Real-Time-Object-Detection.git"
+              target="_blank"
+              >GitHub</a
+            >
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <h3>Fitness Tracker Web App</h3>
+          <p>
+            A Streamlit-based fitness tracker that monitors steps, calories,
+            heart rate, and sleep patterns with real-time insights and goal
+            tracking.
+          </p>
+          <p class="stack">Tech: Streamlit, NumPy, Pandas, Matplotlib</p>
+          <div class="project-links">
+            <a
+              href="https://github.com/Bhumibathre/Fitness-Tracker.git"
+              target="_blank"
+              >GitHub</a
+            >
+            <a
+              href="https://huggingface.co/spaces/bathrebhumi/fitness-tracker"
+              target="_blank"
+              >Live Demo</a
+            >
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project">
+          <h3>MyHome.shop</h3>
+          <p>
+            Responsive furniture landing page showcasing products, deals,
+            testimonials, and smooth animations for a modern shopping
+            experience.
+          </p>
+          <p class="stack">
+            Tech: HTML, CSS, JavaScript, Swiper.js, ScrollReveal.js
+          </p>
+          <div class="project-links">
+            <a
+              href="https://github.com/Bhumibathre/MyHome.shop.git"
+              target="_blank"
+              >GitHub</a
+            >
+            <a href="#" target="_blank">Live Demo</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <p>Open to internships, jobs, and project collaborations.</p>
+      <ul class="contact">
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:yourmail@gmail.com">bathrebhumi@gmail.com</a>
+        </li>
+        <li>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/bhumibathre27/" target="_blank"
+            >linkedin.com/in/bhumibathre27</a
+          >
+        </li>
+        <li>
+          <strong>GitHub:</strong>
+          <a href="https://github.com/Bhumibathre" target="_blank"
+            >github.com/Bhumibathre</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">© <span id="year"></span> Bhumi Bathre</footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
